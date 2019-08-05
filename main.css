@@ -1,0 +1,22 @@
+.banner{
+  background-image:url("../background.jpg");
+  background-size: cover;
+  }
+
+  .looking{
+      font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+      font-size: 40px;
+      color:snow;
+      font-style: italic;
+      text-align: left;
+  }
+   .logo{
+      font-size: 30px;
+      color:red;
+      font-weight: bold;
+  }
+  .hr{
+    background-color: deepskyblue;
+    height:2%;
+    width:20%;
+}
