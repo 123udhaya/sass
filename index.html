@@ -17,12 +17,33 @@
           crossorigin="anonymous">
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
             crossorigin="anonymous">
+            <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script>
+    
+        $(document).ready(function(){
+            $("#input").click(function(){
+
+                $(".text_show").show();
+
+            });
+             $("#readme").click(function(){
+
+                $(".text_show").toggle();
+
+            });
+        });
+    </script>  
 
             <!--Link Tags-->
             <link rel="stylesheet" type="text/css" href="stylesheet\main.css" />
 
             <!--title-->
             <title>Promodise</title>
+           
+            
+           
+
 </head>
 
 <body>
@@ -74,36 +95,52 @@
         </div>
       </form>
     </div>
-   
+
   </div>
-  
+
   <!--section1 Ends-->
   <!--Section2-->
-  <div id="about" class="container text-center" style="height:400px;padding: 50px;">
+  <div id="about" class="container text-center" style="height:500px;padding: 50px;">
     <h2 class="leaders">We're leaders in</h2>
     <h4 class="creative">Creative Digital Recruitment</h4>
     <hr class="hr" />
     <p style="padding:2%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <button type="button" class="btn btn-outline-primary btn-lg findout">Find Out More About Us</button>
+    <input type="button" id="input" class="btn btn-outline-primary btn-lg findout" value="Read More About Us"/>
+  
+   <p class="text_show" style="display:none;padding:5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+   <a id="readme">Read Less</a></p>
+  
   </div>
   <!--Section2 Ends-->
   <!--Section3-->
   <div class="jumbotron text-center banner2" style="height:300px;">
     <div class="container" style="padding:50px 300px;">
       <p class="looking p-2" style="font-size:25px;color:black;">Subscribe to our job seeker mailing list</p>
-     <div class="border11"> <form>
-        <div class="input-group">
-          <input type="email" class="form-control mb-2 mr-sm-5 input_box" placeholder="Enter Your Email Address" required>
-          <i class="fas fa-envelope p-3"></i>
-        
-          
-        </div>
-      </form></div>
+      <div class="border11">
+        <form>
+          <div class="input-group">
+            <input type="email" class="form-control mb-2 mr-sm-5 input_box" placeholder="Enter Your Email Address" required>
+            <i class="fas fa-envelope p-3"></i>
+
+
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 
   <!--Section3 Ends-->
+<div class="puppers">
+         
+        <img src="puppie/goldie.jpg" alt="Goldie">
+     
+        <img src="puppie/husky.jpg" alt="Husky">
+     
+        <img src="puppie/boxer.jpg" alt="Boxer">
+
+        <button type="button" class="input" value="bhdfhcb"></button>
+    </div>
 </body>
 
 </html>
